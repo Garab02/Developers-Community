@@ -1,0 +1,14 @@
+//This is the palaindrome code
+
+function isPalindrome(str) {
+    let rev = str.split("").reverse().join("");
+
+    if (rev == str) {
+        return true
+    }
+    return false
+
+}
+
+let str1 = "kayak";
+console.log("This word is palaindrome: " + isPalindrome(str1));
